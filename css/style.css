@@ -1,8 +1,13 @@
+/* im french */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+/* literata */
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200;0,7..72,300;0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;0,7..72,800;0,7..72,900;1,7..72,200;1,7..72,300;1,7..72,400;1,7..72,500;1,7..72,600;1,7..72,700;1,7..72,800;1,7..72,900&display=swap');
+
 
 :root{
     /* fonts */
     --french: 'IM Fell French Canon', serif;
+    --literata: 'Literata', serif;
     /* colors */
     --white: #eeee;
     --black: #0f0f0f;
@@ -15,6 +20,7 @@ body{
 
 .nav-link{
     font-size: 1.5rem;
+    text-transform: uppercase;
     font-family: var(--french);
     color: var(--white);
 }
@@ -43,4 +49,13 @@ body{
     color: var(--black);
     padding: 0 4rem 0 4rem;
     border-bottom: 4px solid var(--black);
+}
+
+#cozinha-text{
+    color: white;
+    font-family: var(--literata);
+}
+
+#container-img{
+    margin: 30rem;
 }
