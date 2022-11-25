@@ -5,6 +5,12 @@
     --french: 'IM Fell French Canon', serif;
     /* colors */
     --white: #eeee;
+    --black: #0f0f0f;
+    --creamy-pastel-white: #D9D4C1;
+}
+
+body{
+    background: var(--creamy-pastel-white);
 }
 
 .nav-link{
@@ -16,4 +22,25 @@
 .contato{
     font-size: .5rem;
     color: #3d3d3d;
+}
+
+.slogan{
+    font-family: var(--french);
+    color: var(--white);
+}
+
+.main-section-background{
+    background-image: url('/img/Background_main_div.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.moveis-text{
+    font-family: var(--french);
+    color: var(--black);
+    padding: 0 4rem 0 4rem;
+    border-bottom: 4px solid var(--black);
 }
