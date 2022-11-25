@@ -36,7 +36,7 @@ body{
 }
 
 .main-section-background{
-    background-image: url('/img/Background_main_div.png') !important;
+    background-image: url('../img/Background_main_div.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
