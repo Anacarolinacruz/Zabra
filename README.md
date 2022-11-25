@@ -1,2 +1,3 @@
 # Zabra
-Loja virtual de roupas
+
+Site para uma empresa de arquitetura e design de interiores
